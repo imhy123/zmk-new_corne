@@ -1,4 +1,0 @@
-name: custom_zmk_override
-build:
-  cmake-ext: true
-  kconfig-ext: true
