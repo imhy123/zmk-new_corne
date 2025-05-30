@@ -14,5 +14,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: custom_zmk_override
+      path: custom_zmk_override
+      url: ./
+      revision: main
   self:
     path: config
