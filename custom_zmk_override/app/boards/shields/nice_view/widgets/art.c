@@ -320,5 +320,3 @@ const lv_img_dsc_t mikasa = {
   .data_size = 1232,
   .data = mikasa_map,
 };
-
-#error "Using overridden art.c!"
