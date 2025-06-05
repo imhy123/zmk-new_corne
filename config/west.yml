@@ -17,6 +17,6 @@ manifest:
     - name: custom_zmk_override
       path: custom_zmk_override
       url: ./
-      revision: main
+      revision: HEAD
   self:
     path: config
