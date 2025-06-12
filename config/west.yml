@@ -6,12 +6,14 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+    - name: custom-zmkfirmware
+      url-base: https://github.com/imhy123
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
     - name: zmk
-      remote: zmkfirmware
+      remote: custom-zmkfirmware
       revision: main
       import: app/west.yml
   self:
